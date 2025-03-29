@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #f9fafb;
+}
+@media (max-width: 798px) {
+  .my-cards {
+    display: flex;
+    overflow-x: scroll;
+  }
+}
+
+@media (max-width: 1011px) {
+  .top-bar{
+    margin-left: 3rem;
+  }
+}
